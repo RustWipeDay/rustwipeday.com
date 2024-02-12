@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rust';
+    src: url('Rust.woff2') format('woff2'),
+        url('Rust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
