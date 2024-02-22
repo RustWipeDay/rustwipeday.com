@@ -1,0 +1,44 @@
+/* Media query for screens smaller than 768px */
+@media (max-width: 950px) {
+  nav {
+    margin-top: 0;
+  }
+
+  .wrap-bg {
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent 100%);
+    background-position: 50%;
+  }
+
+  .flex-columns {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .column {
+    display: block;
+    max-width: 100%;
+  }
+
+  ul.nav-menu {
+    display: block;
+    margin: 0 auto;
+    flex-basis: unset;
+    flex-grow: unset;
+  }
+
+  .social-links {
+    margin: 0 auto;
+  }
+
+  .server-info {
+    width: 100%;
+  }
+
+  .logo-wrapper {
+    display: none;
+  }
+
+  .img-ak-bg {
+    display: none;
+  }
+}
