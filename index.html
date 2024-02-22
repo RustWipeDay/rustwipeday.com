@@ -20,6 +20,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
+  <script> 
+    //Detect if screen is 1920 by 1080 or is mobile device
+    if (window.screen.width == 1920 && window.screen.height == 1080) {
+      //Load 1920x1080 background image
+      document.write('<link rel="stylesheet" type="text/css" href="./pc.css">');
+    } else {
+      //Load mobile background image
+      document.write('<link rel="stylesheet" type="text/css" href="./mobile.css">');
+    }
+  </script>
   <style>
     @font-face {
       font-family: 'Rust';
