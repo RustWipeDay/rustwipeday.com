@@ -529,6 +529,9 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  max-width: 665px;
+  background: rgba(0,0,0,.25);
+  padding: 1em;
 }
 
 .item {
