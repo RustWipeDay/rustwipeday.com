@@ -528,8 +528,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  max-width: 665px;
+  gap: 1em;
+  max-width: 44em;
   background: rgba(0,0,0,.25);
   padding: 1em;
 }
