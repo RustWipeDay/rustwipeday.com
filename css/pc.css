@@ -568,3 +568,28 @@ header {
   border-radius: 3px;
   font-size: 14px;
 }
+
+.vip-packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  max-width: 44em;
+  background: rgba(0,0,0,.25);
+  padding: 1em;
+}
+
+.vip-package {
+  width: 200px;
+  display: inline;
+  clear: both;
+}
+
+.vip-package h2 {
+  text-align: center;
+}
+
+.vip-package img {
+  width: 200px;
+  height: auto;
+}
