@@ -576,6 +576,7 @@ header {
   gap: 1em;
   background: rgba(0,0,0,.25);
   padding: 1em;
+  border: 1px solid #171513;
 }
 
 .vip-package {
