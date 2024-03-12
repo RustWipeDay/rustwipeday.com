@@ -180,12 +180,12 @@ p {
   background-color: #6D8247;
 }
 
-.btn-blue {
+.btn-blue, .btn-blue a {
   background-color: #1B4666;
   color: #6B9CC0;
 }
 
-.btn-blue:hover {
+.btn-blue:hover, .btn-blue a:hover {
   background-color: #1F537B;
   color: #AABFCD;
 }
@@ -310,6 +310,12 @@ nav {
   background-color: #171513 !important;
   border-radius: 0 !important;
   margin-bottom: 50px;
+  clear: both
+}
+
+.store-header {
+  position: relative;
+  float: right;
 }
 
 .social-links {
