@@ -171,6 +171,10 @@ p {
   font-size: 24px;
 }
 
+.inline {
+  display: inline-block;
+}
+
 .btn:hover {
   color: #B8C89E;
   background-color: #6D8247;
