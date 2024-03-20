@@ -602,7 +602,7 @@ header {
 
 .panel {
   background: #1F231D;
-  margin-bottom: 1em;
+  border: 1px solid #000;
 }
 
 .panel-header {
@@ -656,4 +656,9 @@ header {
   line-height: 1.42857143;
   color: #333333;
   white-space: nowrap;
+}
+
+.vip-packages a {
+  color: #e4dad1;
+  text-align: center;
 }
