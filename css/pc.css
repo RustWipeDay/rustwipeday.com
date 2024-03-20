@@ -552,7 +552,7 @@ header {
 
 .kit-contents h2 {
   color: #DBDBDB;
-  padding: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .items-container {
@@ -677,4 +677,20 @@ header {
 
 .package-purchase {
   margin-right: 1em;
+}
+
+.package-description {
+  display: flex;
+}
+
+.kit-features {
+  padding-right: 2em;
+}
+
+.kit-features h2 {
+  color: #DBDBDB;
+}
+
+.kit-features ul {
+  padding-left: 1.5em;
 }
