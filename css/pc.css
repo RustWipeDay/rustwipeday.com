@@ -176,6 +176,11 @@ p {
   color: rgb(204, 195, 190);
 }
 
+.btn-info:hover {
+  background-color: rgb(76, 72, 69);
+  color: rgb(221, 212, 207);
+}
+
 .inline {
   display: inline-block;
 }
