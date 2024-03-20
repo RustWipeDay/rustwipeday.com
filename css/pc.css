@@ -546,7 +546,7 @@ header {
 }
 
 .kit-contents {
-  max-width: 41em;
+  max-width: 42em;
   margin: 0 auto;
 }
 
@@ -681,10 +681,12 @@ header {
 
 .package-description {
   display: flex;
+  justify-content: center;
 }
 
 .kit-features {
   padding-right: 2em;
+  margin: 0 auto;
 }
 
 .kit-features h2 {
