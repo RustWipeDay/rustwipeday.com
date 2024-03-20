@@ -594,3 +594,23 @@ header {
   height: auto;
   border: 1px solid #171814;
 }
+
+.panel {
+  background: #1F231D;
+  margin-bottom: 1em;
+}
+
+.panel-header {
+  background: rgba(0,0,0,0.33);
+  padding: 1em;
+  margin: 0;
+}
+
+.panel-heading {
+  font-family: "Bebas Neue";
+  font-size: 21px;
+}
+
+.panel-body {
+  padding: 1em;
+}
